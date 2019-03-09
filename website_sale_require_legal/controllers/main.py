@@ -2,9 +2,10 @@
 # Copyright 2016 Tecnativa - Vicent Cubells
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
+from odoo.addons.website_sale.controllers import main
+
 from odoo import SUPERUSER_ID
 from odoo.http import request
-from odoo.addons.website_sale.controllers import main
 
 
 class WebsiteSale(main.WebsiteSale):
